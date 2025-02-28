@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit-cover" />
+
+        <title>Title</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/basis.css" />
+        <link rel="stylesheet" href="css/gallery.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a href="bautista_ex4.html" class="navbar-brand">
+                    <img src="logo.jpg" alt="Logo" title="Logo" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="product_page.html" class="nav-link">Products</a></li>
+                        <li class="nav-item"><a href="gallery_page.html" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="testimonial_page.html" class="nav-link">Testimonials</a></li>
+                        <li class="nav-item"><a href="contact_page.html" class="nav-link">Contact Us</a></li>
+                        <li class="nav-item"><a href="about_us_page.html" class="nav-link">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation -->
+
+        <!-- Galleria -->
+        <section>
+            <div class="row">
+                <div class="col-md-6 w-100 mx-0 px-0">
+                    <img class="w-100" src="images/thumbnail1.jpeg" />
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-6 d-none d-block py-3 px-0">
+                                    <h1>Fashion</h1>
+                                    <button
+                                        class="btn btn-outline-light btn-lg"
+                                        data-toggle="modal"
+                                        data-target="#myModal1">
+                                        Images &gt;
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 w-100 mx-0 px-0">
+                    <img class="w-100" src="images/thumbnail2.jpeg" />
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-6 d-none d-block py-3 px-0">
+                                    <h1>Move</h1>
+                                    <button
+                                        class="btn btn-outline-light btn-lg"
+                                        data-toggle="modal"
+                                        data-target="#myModal2">
+                                        Capture &gt;
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-md-6 w-100 mx-0 px-0">
+                    <img class="w-100" src="images/thumbnail3.JPG" />
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-6 d-none d-block py-3 px-0">
+                                    <h1>Stores</h1>
+                                    <button
+                                        class="btn btn-outline-light btn-lg"
+                                        data-toggle="modal"
+                                        data-target="#myModal3">
+                                        Stores &gt;
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 w-100 mx-0 px-0">
+                    <img class="w-100" src="images/thumbnail4.jpeg" />
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-6 d-none d-block py-3 px-0">
+                                    <h1>Beauty</h1>
+                                    <button
+                                        class="btn btn-outline-light btn-lg"
+                                        data-toggle="modal"
+                                        data-target="#myModal4">
+                                        Behold &gt;
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Galleria -->
+
+        <!-- Modals -->
+        <div id="myModal1" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="images/fashion1.jpeg" class="img-fluid" />
+                        <img src="images/fashion2.jpeg" class="img-fluid" />
+                        <img src="images/fashion3.jpeg" class="img-fluid" />
+                        <img src="images/fashion4.jpeg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="images/move1.jpeg" class="img-fluid" />
+                        <img src="images/move2.jpeg" class="img-fluid" />
+                        <img src="images/move3.jpeg" class="img-fluid" />
+                        <img src="images/move4.jpeg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="images/store1.jpeg" class="img-fluid" />
+                        <img src="images/store2.jpeg" class="img-fluid" />
+                        <img src="images/store3.jpeg" class="img-fluid" />
+                        <img src="images/store4.jpeg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal4" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="images/beauty1.jpeg" class="img-fluid" />
+                        <img src="images/beauty2.jpeg" class="img-fluid" />
+                        <img src="images/beauty3.jpeg" class="img-fluid" />
+                        <img src="images/beauty4.jpeg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modals -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="container pt-4">
+                <div class="row text-light py-4 justify-content-center">
+                    <div class="col-lg-3 col-md-4 pl-5 mb-5">
+                        <h2>Company</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="about_us_page.html">About Us</a></li>
+                            <li><a href="contact_page.html">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pl-5 mb-5">
+                        <h2>Socials</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="https://facebook.com">Facebook</a></li>
+                            <li><a href="https://twitter.com">Twitter</a></li>
+                            <li><a href="https://instagram.com">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pl-5 mb-5">
+                        <h2>Products</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Fabric Range</a></li>
+                            <li><a href="#">Colour Range</a></li>
+                            <li><a href="#">Assets</a></li>
+                            <li><a href="#">Catalogue</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </body>
+</html>
