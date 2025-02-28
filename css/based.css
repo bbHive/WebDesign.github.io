@@ -1,0 +1,65 @@
+/***************
+Remove this css file in the end.
+***************/
+
+/** BODY **/
+body {
+    overflow-x: hidden;
+    font-family: Verdana;
+    color: #616971;
+    letter-spacing: -0.03rem;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Times New Roman";
+}
+
+/** NAVBAR **/
+.navbar-brand img {
+    height: 3rem;
+}
+.navbar {
+    background-color: black;
+    font-size: 1.05rem;
+    letter-spacing: 0.04rem;
+    box-shadow: 0, 0.5rem, 0.5rem, rgba(0, 0, 0, 0.1);
+    z-index: 800;
+}
+.nav-item {
+    padding: 0.3rem;
+}
+.nav-link {
+    color: #ffffff !important;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: azure !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/** FOOTER **/
+footer {
+    background-color: black;
+}
+footer h2 {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+footer li {
+    margin-bottom: 1rem;
+}
+footer a {
+    color: white;
+    text-decoration: none !important;
+    font-size: 1rem;
+}
+footer a:hover {
+    color: rgb(199, 215, 255) !important;
+    transition: 0.3s ease-in-out;
+}
