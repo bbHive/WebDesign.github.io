@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #616971;
+}
+
+.our-story {
+    margin-bottom: 50px;
+}
+.our-story h2 {
+    font-family: "Times New Roman", serif;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.story-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.story-img-left, .story-img-right {
+    width: 40%;
+    border-radius: 10px;
+}
+.story-text {
+    width: 50%;
+    font-size: 1.1rem;
+}
+.story-divider {
+    border-top: 2px dashed black;
+    margin: 40px auto;
+    width: 50%;
+}
+.section-divider {
+    border-top: 5px solid black;
+    margin: 60px auto;
+    width: 70%;
+}
+
+.meet-the-team h2 {
+    font-family: "Times New Roman", serif;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.team-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.2);
+}
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.modal-body img {
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+}
