@@ -13,7 +13,8 @@ h6 {
     font-family: "Times New Roman";
 }
 
-.feats p, .p-5 .row .mb-3 {
+.feats p,
+.p-5 .row .mb-3 h1 {
     color: black !important;
 }
 
