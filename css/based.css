@@ -15,7 +15,7 @@ h6 {
 
 .another p,
 footer h1 {
-    color: black;
+    color: black !important;
 }
 
 /** NAVBAR **/
