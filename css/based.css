@@ -13,7 +13,8 @@ h6 {
     font-family: "Times New Roman";
 }
 
-.changecolor {
+.another p,
+footer h1 {
     color: black;
 }
 
