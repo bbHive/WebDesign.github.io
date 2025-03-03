@@ -13,9 +13,12 @@ h6 {
     font-family: "Times New Roman";
 }
 
-.another p,
-footer h1 {
+.another p {
     color: black !important;
+}
+
+footer h1 {
+    color: white !important;
 }
 
 /** NAVBAR **/
